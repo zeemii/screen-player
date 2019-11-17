@@ -17,6 +17,10 @@ export class CoinsComponent implements OnInit {
   ngOnInit() {
   }
 
+  reload(){
+    this.ngOnInit()
+  }
+
   type: ChartType = 'Bar';
   data: IChartistData = {
     labels: [
@@ -43,7 +47,7 @@ export class CoinsComponent implements OnInit {
     axisX: {
       showGrid: false
     },
-    height: 300
+    height: '100%'
   };
 
   events: ChartEvent = {
