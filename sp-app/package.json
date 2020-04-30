@@ -26,7 +26,7 @@
     "@ng-bootstrap/ng-bootstrap": "^5.1.4",
     "bootstrap": "^4.3.1",
     "chartist": "^0.11.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ng-chartist": "^4.1.0",
     "popper.js": "^1.16.0",
     "rxjs": "~6.4.0",
